@@ -16,3 +16,21 @@ function conversion () {
   }
 
   let myGenderValue = getGender();
+  
+  function monthValidator () {
+    if (monthOfBirth < 1 || monthOfBirth > 12) {
+      alert("Invalid month entered")
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  function dayValidator () {
+    if (dayOfBirth < 1 || dayOfBirth > 31){
+      alert("Invalid date entered")
+      return false;
+    } else {
+      return true;
+    }
+  }
