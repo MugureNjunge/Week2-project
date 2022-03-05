@@ -2,27 +2,50 @@
 <html>
 
 <head>
-  <title>Conversion project</title>
+  <title>AKAN NAME</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <h1>Unit Conversion </h1>
+  <h1>Find your Akan name</h1>
   <script src="js/scripts.js"></script>
-  <form>
+  <p>This is a web application that helps you know your <strong>Akan name</strong> in seconds.What are Akan names you ask?They are names derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Interesting right?</p>
+  <p>So all that is required is your birthday and your gender then leave it to us!Easy Peezy! Make a wild guess of what your name is likely to be using the akan names below then fill in your information to see whether you guessed right!</p>
+  <label>Male</label>
+  <ul>
+    <li>Sunday: Kwasi</li>
+    <li>Monday: Kwadwo</li>
+    <li>Tuesday: Kwabena</li>
+    <li>Wednesday: Kwaku</li>
+    <li>Thursday:  Yaw</li>
+    <li>Friday: Kofi</li>
+    <li>Saturday: Kwame</li>
+  </ul>
+  <label>Female</label>
+  <ul>
+    <li>Sunday: Akosua</li>
+    <li>Monday: Adwoa</li>
+    <li>Tuesday: Abenaa</li>
+    <li>Wednesday: Akua</li>
+    <li>Thursday:  Yaa</li>
+    <li>Friday: Afua</li>
+    <li>Saturday: Ama</li>
+  </ul>
+  <form onsubmit="conversion()">
     <p>Date</p>
     <input id="dd" type="number" name="day" placeholder="dd">
     <input id="mm" type="number" name="month" placeholder="mm">
     <input id="yyyy" type="number" name="year" placeholder="yyyy">
     <p>Gender</p>
-    <input id="female" name="female" type="radio" value="female">
+    <input id="female" name="gender" type="radio" value="female">
     <label>Female</label>
     <br>
-    <input id="male" name="male" type="radio" value="male">
+    <input id="male" name="gender" type="radio" value="male">
     <label>Male</label>
-
+    <p><input type="submit" value="Find out your name"></p>
 
   </form>
+  <p>Did you guess right?</p>
 
 </body>
 
