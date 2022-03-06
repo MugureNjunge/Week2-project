@@ -66,7 +66,7 @@ function conversion () {
     alert("You were born on a " + daysOfWeek[index] + " , your Akan name is " + femaleAkanNames[index]);
     return false;
   }else {
-    alert("You have not entered a day or month, please try again");
+    alert("All fields must be completed, please try again");
   }
 }
 

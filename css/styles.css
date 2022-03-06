@@ -1,18 +1,7 @@
 h1{
   forced-color-adjust: ;
   font-size: xx-large;
-  text-align: center;
-}
-.intro1{
   text-align: left;
-  border: solid maroon;
-  border-radius: 40px;
-  float:left;
-  width: 30%;
-  height: 200px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-
 }
 
 .intro2{
@@ -25,7 +14,7 @@ h1{
  
 }
 .border-large{
-  border: dotted maroon;
+  border: solid maroon;
   border-radius: 40px;
 }
 .body{
@@ -71,13 +60,13 @@ color:#fff;
  .names {
   position: absolute;
   display: block;
-  color: #888;
+  color:grey
  }
  .females{
-   border-left:3px solid #d37315;
+   border-left:3px solid orange;
  }
  .row label{
-  color:#d37315;
+  color:orange;
 }
 .formwidth{
   width: 20px;;
