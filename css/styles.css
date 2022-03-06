@@ -1,6 +1,7 @@
 h1{
   forced-color-adjust: ;
   font-size: xx-large;
+  text-align: center;
 }
 .intro1{
   text-align: left;
@@ -40,7 +41,7 @@ h1{
   
 }
 .description h1{
-color:#F97300 ;
+color: orange ;
 }
 .description p{
 color:#666;
