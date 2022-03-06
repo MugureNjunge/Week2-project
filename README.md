@@ -16,7 +16,7 @@ This is a portfolio website that calculates the day of the week you were born us
 
 **Bugs**
 
-No Known Bugs.
+Dates between 2000 and 2009 produce incorrect results.
 
 **Technologies Used**
 
