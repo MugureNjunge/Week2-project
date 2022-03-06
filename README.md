@@ -2,7 +2,7 @@
 
 Written by Maureen Njung'e
 
-This is a web application that helps you know your Akan name by simply inputting your birthday and your gender.
+This is a web application that helps you know your Akan name by simply inputting your birthday and your gender. It has a formuale in Javascript that calculates the day of the week you were born then coupled your gender gives you your Akan name.
 
 **Set up**
 
@@ -20,7 +20,7 @@ No Known Bugs.
 
 **Technologies Used**
 
-HTML ,Javascript and CSS were used to create this project. I added a formulae to my Javascript that calculates the day of the week you were born..
+HTML ,Javascript and CSS were used to create this project. I added a formulae to my Javascript that calculates the day of the week you were born.
 
 **Support and contact details**
 
