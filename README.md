@@ -1,12 +1,15 @@
 **Week 2 project**
 
-Written by Maureen Njung'e
+**Written by Maureen Njung'e**
 
 This is a web application that helps you know your Akan name by simply inputting your birthday and your gender. It has a formuale in Javascript that calculates the day of the week you were born then coupled your gender gives you your Akan name.
 
 **Set up**
 
 Clone this repo to your desktop, create gh-pages and publish it. Go to the cloned repository, tap on settings tab then tap on pages tab. You will see "link is ready". Click on the link to open.
+
+**BDD**
+I want html code to display a short description,a list of all Akan names and a form with date,month and year input fields,radio buttons for the gender and submit and clear buttons.When the user enters the date, month and year in the input fields, checks the radio button and then presses button named 'find our your name', an alert should pop up displaying a message with the day the client was born and their Akan name.
 
 **Description**
 
