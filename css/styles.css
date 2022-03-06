@@ -1,0 +1,83 @@
+h1{
+  forced-color-adjust: ;
+  font-size: xx-large;
+}
+.intro1{
+  text-align: left;
+  border: solid maroon;
+  border-radius: 40px;
+  float:left;
+  width: 30%;
+  height: 200px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+
+}
+
+.intro2{
+  text-align: left;
+  float:left;
+  width: 65%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+ 
+}
+.border-large{
+  border: dotted maroon;
+  border-radius: 40px;
+}
+.body{
+  font-size: larger;
+  background-color: aqua;
+}
+
+.description{
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+  
+}
+.description h1{
+color:#F97300 ;
+}
+.description p{
+color:#666;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+.description button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+.overlay{
+   min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: #8ca6bd;
+
+ }
+ .header{
+  background-image: url('../images/WEBMAP_GHANA_1000x562.webp');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ }
+ .names {
+  position: absolute;
+  display: block;
+  color: #888;
+ }
+ .females{
+   border-left:3px solid #d37315;
+ }
+ .row label{
+  color:#d37315;
+}
+.formwidth{
+  width: 20px;;
+}

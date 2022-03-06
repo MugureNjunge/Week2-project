@@ -39,16 +39,35 @@ function conversion () {
   let dayValid = dayValidator();
 
   
-  let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
-          ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
+  let dayOfWeekNumber =Math.floor((((parseInt(yearOfBirth.slice(0,2))/4)-2*parseInt(yearOfBirth.slice(0,2))-1)+
+          ((5*parseInt(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth))%7;
 
   let index;
-  
-  if (dayOfWeekNumber == 0){
+
+    if (dayOfWeekNumber === 0){
     index = 6;
+  } else if(dayOfWeekNumber < 0){
+    if (math.abs(dayOfWeekNumber) === 0){
+      index = 6;
+    }
+    else {
+      index = math.abs(dayOfWeekNumber)-1;
+    }
   } else {
     index = dayOfWeekNumber - 1;
-  }
+}
 
   console.log(index);
+
+  if (myGenderValue === "male" && monthValid && dayValid) {
+    alert("You were born on a " + daysOfWeek[index] + " , your Akan name is " + maleAkanNames[index]);
+    return false;
+  }else if (myGenderValue === "female" && monthValid && dayValid) {
+    alert("You were born on a " + daysOfWeek[index] + " , your Akan name is " + femaleAkanNames[index]);
+    return false;
+  }else {
+    alert("You have not entered a day or month, please try again");
+  }
+}
+
 
