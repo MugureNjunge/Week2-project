@@ -52,7 +52,7 @@ color:#fff;
 
  }
  .header{
-  background-image: url('../images/WEBMAP_GHANA_1000x562.webp');
+  background-image : url(../images/maps-ghana.webp);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
